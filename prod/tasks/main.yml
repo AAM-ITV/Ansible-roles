@@ -9,7 +9,7 @@
     state: present
 
 - name: Pull Docker image from Docker Hub
-  shell: docker pull aamitv/myapp:latest
+  shell: docker pull yourrepository
 
 - name: Stop and remove existing container if it exists
   shell: |
